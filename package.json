@@ -1,0 +1,15 @@
+{
+  "name": "flowcore-idempotency-key",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Implementa Idempotency-Key: a mesma cobrança ou pedido nunca é processado duas vezes, com trava em andamento (409) e payload divergente (422). Fim do cliente cobrado em dobro.",
+  "author": "FlowCore Soluções LTDA",
+  "license": "MIT",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "vitest": "^3.2.4"
+  }
+}
